@@ -36,7 +36,7 @@ public class MicroBitListen : MonoBehaviour
         {
             motion = Array.ConvertAll(msg.Split(','), float.Parse);
             startingBearing = motion[5];
-            isFirst = false;
+            //isFirst = false;
         }
 
 
